@@ -1,0 +1,33 @@
+# OS / editor junk
+.DS_Store
+Thumbs.db
+*.swp
+*~
+.vscode/
+.idea/
+
+# C / ELF / reversing
+*.o
+*.out
+*.elf
+*.bin
+*.exe
+*.dSYM/
+*.dwo
+*.gch
+*.a
+*.so
+*.so.*
+core
+*.core
+
+# Python (if tooling shows up)
+__pycache__/
+*.pyc
+.venv/
+venv/
+*.egg-info/
+
+# scratch / local-only
+scratch/
+*.local
