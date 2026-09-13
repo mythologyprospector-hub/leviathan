@@ -1,0 +1,4 @@
+[submodule "reference/shiva-src"]
+	path = reference/shiva-src
+	url = https://github.com/advanced-microcode-patching/shiva
+	branch = main

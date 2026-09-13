@@ -1,0 +1,38 @@
+name: Shiva reference sync
+on:
+  schedule:
+    - cron: '0 13 * * *'   # daily, 13:00 UTC
+  workflow_dispatch: {}
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          submodules: true
+          fetch-depth: 0
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Record old commit
+        id: old
+        run: echo "sha=$(git -C reference/shiva-src rev-parse HEAD)" >> "$GITHUB_OUTPUT"
+
+      - name: Update submodule to latest upstream main
+        run: |
+          git submodule update --remote --merge reference/shiva-src
+
+      - name: Record new commit
+        id: new
+        run: echo "sha=$(git -C reference/shiva-src rev-parse HEAD)" >> "$GITHUB_OUTPUT"
+
+      - name: Commit and push if changed
+        if: steps.old.outputs.sha != steps.new.outputs.sha
+        run: |
+          git config user.name "shiva-sync-bot"
+          git config user.email "actions@github.com"
+          git add reference/shiva-src
+          git commit -m "Sync reference/shiva-src: ${{ steps.old.outputs.sha }} -> ${{ steps.new.outputs.sha }}"
+          git push
