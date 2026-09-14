@@ -1,0 +1,40 @@
+tch_plt_stubs:726] SYMNAME: __stack_chk_fail PLTADDR: 0x60003ea GOTADDR: 0x6001038 GOTOFF: 0xc48
+[shiva_module.c:patch_plt_stubs:727] Fixedup PLT stub with GOT offset: 0xc48
+[shiva_module.c:resolve_pltgot_entries:504] Processing GOT[puts](0x6001000)
+[shiva_module.c:resolve_pltgot_entries:685] Found symbol 'puts':0x42fdd0 within the Shiva API
+[shiva_module.c:resolve_pltgot_entries:504] Processing GOT[fflush](0x6001008)
+[shiva_module.c:resolve_pltgot_entries:685] Found symbol 'fflush':0x42f160 within the Shiva API
+[shiva_module.c:resolve_pltgot_entries:504] Processing GOT[_exit](0x6001010)
+[shiva_module.c:resolve_pltgot_entries:685] Found symbol '_exit':0x4370e0 within the Shiva API
+[shiva_module.c:resolve_pltgot_entries:504] Processing GOT[elf_symbol_by_name](0x6001018)
+[shiva_module.c:resolve_pltgot_entries:685] Found symbol 'elf_symbol_by_name':0x419fc9 within the Shiva API
+[shiva_module.c:resolve_pltgot_entries:504] Processing GOT[shiva_trace](0x6001020)
+[shiva_module.c:resolve_pltgot_entries:685] Found symbol 'shiva_trace':0x411277 within the Shiva API
+[shiva_module.c:resolve_pltgot_entries:504] Processing GOT[shiva_trace_register_handler](0x6001028)
+[shiva_module.c:resolve_pltgot_entries:685] Found symbol 'shiva_trace_register_handler':0x40f7eb within the Shiva API
+[shiva_module.c:resolve_pltgot_entries:504] Processing GOT[shiva_trace_set_breakpoint](0x6001030)
+[shiva_module.c:resolve_pltgot_entries:685] Found symbol 'shiva_trace_set_breakpoint':0x40f942 within the Shiva API
+[shiva_module.c:resolve_pltgot_entries:504] Processing GOT[__stack_chk_fail](0x6001038)
+[shiva_module.c:resolve_pltgot_entries:685] Found symbol '__stack_chk_fail':0x42b9c0 within the Shiva API
+[shiva_module.c:module_entrypoint:449] Module text: 0x6000000
+[shiva_module.c:shiva_module_loader:2855] ModuleEntry point address: 0x6000059
+[patch_module] shakti_main() running
+[shiva_trace_thread.c:shiva_trace_thread_status:22] Opening: /proc/self/status
+[shiva_trace_thread.c:shiva_trace_thread_status:35] Thread name: 	shiva
+
+[shiva_trace_thread.c:shiva_trace_thread_status:57] Thread ppid: 396
+[shiva_trace_thread.c:shiva_trace_thread_status:46] Thread tracer pid: 396
+[shiva_trace_thread.c:shiva_trace_thread_status:54] Thread uid: 0
+[shiva_trace_thread.c:shiva_trace_thread_status:43] Thread gid: 0
+[shiva_trace_thread.c:shiva_trace_thread_status:63] Returning true
+[shiva_trace_thread.c:shiva_trace_thread_insert:109] Inserting new thread
+[shiva_trace_thread.c:shiva_trace_thread_insert:113] Returning true
+[shiva_trace.c:shiva_trace_register_handler:185] Registering handler 0x6000029
+[shiva_trace.c:shiva_trace_set_breakpoint:221] found handler: 0x6000029
+[patch_module] shiva_trace_set_breakpoint failed
+[shiva_module.c:shiva_module_loader:2857] Successfully executed module
+[shiva.c:main:490] Passing control to entry point: 0x40401790
+[shiva.c:main:491] LDSO entry point: 0
+--- SIGSEGV {si_signo=SIGSEGV, si_code=SEGV_MAPERR, si_addr=NULL} ---
++++ killed by SIGSEGV +++
+Segmentation fault
