@@ -1,0 +1,564 @@
+[shiva.c:main:328] Running in interpreter mode
+[shiva.c:shiva_interp_mode:107] Interp mode, ctx: 0x7fff91035a00
+[shiva_maps.c:shiva_maps_build_list:150] base: 0x400000
+[shiva_maps.c:shiva_maps_build_list:181] Inserted mapping for 0x400000 - 0x401000
+[shiva_maps.c:shiva_maps_build_list:150] base: 0x401000
+[shiva_maps.c:shiva_maps_build_list:181] Inserted mapping for 0x401000 - 0x438000
+[shiva_maps.c:shiva_maps_build_list:150] base: 0x438000
+[shiva_maps.c:shiva_maps_build_list:181] Inserted mapping for 0x438000 - 0x446000
+[shiva_maps.c:shiva_maps_build_list:150] base: 0x446000
+[shiva_maps.c:shiva_maps_build_list:181] Inserted mapping for 0x446000 - 0x457000
+[shiva_maps.c:shiva_maps_build_list:150] base: 0x457000
+[shiva_maps.c:shiva_maps_build_list:181] Inserted mapping for 0x457000 - 0x459000
+[shiva_maps.c:shiva_maps_build_list:150] base: 0x5615099d7000
+[shiva_maps.c:shiva_maps_build_list:181] Inserted mapping for 0x5615099d7000 - 0x5615099d8000
+[shiva_maps.c:shiva_maps_build_list:150] base: 0x5615099d8000
+[shiva_maps.c:shiva_maps_build_list:181] Inserted mapping for 0x5615099d8000 - 0x5615099d9000
+[shiva_maps.c:shiva_maps_build_list:150] base: 0x5615099d9000
+[shiva_maps.c:shiva_maps_build_list:181] Inserted mapping for 0x5615099d9000 - 0x5615099da000
+[shiva_maps.c:shiva_maps_build_list:150] base: 0x5615099da000
+[shiva_maps.c:shiva_maps_build_list:181] Inserted mapping for 0x5615099da000 - 0x5615099dc000
+[shiva_maps.c:shiva_maps_build_list:150] base: 0x5615099dc000
+[shiva_maps.c:shiva_maps_build_list:181] Inserted mapping for 0x5615099dc000 - 0x5615099dd000
+[shiva_maps.c:shiva_maps_build_list:150] base: 0x56153b801000
+[shiva_maps.c:shiva_maps_build_list:181] Inserted mapping for 0x56153b801000 - 0x56153b802000
+[shiva_maps.c:shiva_maps_build_list:150] base: 0x56153b802000
+[shiva_maps.c:shiva_maps_build_list:181] Inserted mapping for 0x56153b802000 - 0x56153b803000
+[shiva_maps.c:shiva_maps_build_list:150] base: 0x7f54beb33000
+[shiva_maps.c:shiva_maps_build_list:181] Inserted mapping for 0x7f54beb33000 - 0x7f54beb36000
+[shiva_maps.c:shiva_maps_build_list:150] base: 0x7f54beb36000
+[shiva_maps.c:shiva_maps_build_list:181] Inserted mapping for 0x7f54beb36000 - 0x7f54beb3c000
+[shiva_maps.c:shiva_maps_build_list:150] base: 0x7f54beb3c000
+[shiva_maps.c:shiva_maps_build_list:181] Inserted mapping for 0x7f54beb3c000 - 0x7f54beb3d000
+[shiva_maps.c:shiva_maps_build_list:150] base: 0x7f54beb3d000
+[shiva_maps.c:shiva_maps_build_list:181] Inserted mapping for 0x7f54beb3d000 - 0x7f54beb41000
+[shiva_maps.c:shiva_maps_build_list:150] base: 0x7f54beb41000
+[shiva_maps.c:shiva_maps_build_list:181] Inserted mapping for 0x7f54beb41000 - 0x7f54beb43000
+[shiva_maps.c:shiva_maps_build_list:150] base: 0x7f54beb43000
+[shiva_maps.c:shiva_maps_build_list:181] Inserted mapping for 0x7f54beb43000 - 0x7f54beb45000
+[shiva_maps.c:shiva_maps_build_list:150] base: 0x7fff91018000
+[shiva_maps.c:shiva_maps_build_list:181] Inserted mapping for 0x7fff91018000 - 0x7fff91039000
+[shiva_maps.c:shiva_maps_build_list:150] base: 0xffffffffff600000
+[shiva_maps.c:shiva_maps_build_list:181] Inserted mapping for 0xffffffffff600000 - 0xffffffffff601000
+[shiva.c:shiva_interp_mode:143] Original stack upper bound: 0x7fff91039000
+[shiva.c:shiva_interp_mode:152] Setting shiva base: 0x7fff91018000
+[shiva.c:shiva_interp_mode:164] Setting target base: 0x5615099d7000
+[shiva_target.c:shiva_target_dynamic_get:150] Get dynamic tag 1610612760: 0x51d0
+[shiva_target.c:shiva_target_dynamic_get:150] Get dynamic tag 1610612759: 0x51db
+[shiva_auxv.c:shiva_auxv_iterator_init:31] Setting iter->auxv to envp[20]
+[shiva.c:shiva_interp_mode:195] [1] Entry point: 0
+[shiva_module.c:shiva_module_loader:2746] ctx_global: 0x7fff91035a00
+[shiva_module.c:shiva_module_loader:2747] linker: 0x7f54beb31070
+[shiva_module.c:shiva_module_loader:2754] elf_open_object(/tmp/simod/patch_module.o, ...)
+[shiva_module.c:shiva_module_loader:2782] Shiva linker mode: <MODULE>
+[shiva_module.c:validate_transformations:2357] Transform validator
+[shiva_module.c:validate_transformations:2370] transform symbol '__stack_chk_fail'
+[shiva_module.c:validate_transformations:2370] transform symbol 'shiva_trace_set_breakpoint'
+[shiva_module.c:validate_transformations:2370] transform symbol 'shiva_trace_register_handler'
+[shiva_module.c:validate_transformations:2370] transform symbol 'shiva_trace'
+[shiva_module.c:validate_transformations:2370] transform symbol 'elf_symbol_by_name'
+[shiva_module.c:validate_transformations:2370] transform symbol 'shakti_main'
+[shiva_module.c:validate_transformations:2370] transform symbol '_exit'
+[shiva_module.c:validate_transformations:2370] transform symbol 'fflush'
+[shiva_module.c:validate_transformations:2370] transform symbol 'puts'
+[shiva_module.c:validate_transformations:2370] transform symbol 'shiva_module_delayed_reloc_t'
+[shiva_module.c:validate_transformations:2370] transform symbol 'shiva_xref_site_t'
+[shiva_module.c:validate_transformations:2370] transform symbol 'my_handler'
+[shiva_module.c:validate_transformations:2370] transform symbol ''
+[shiva_module.c:validate_transformations:2370] transform symbol 'say'
+[shiva_module.c:validate_transformations:2370] transform symbol ''
+[shiva_module.c:validate_transformations:2370] transform symbol 'patch_module.c'
+[shiva_module.c:validate_transformations:2370] transform symbol ''
+[shiva_module.c:validate_transformations:2427] List is empty?
+[shiva_module.c:calculate_text_size:1835] Transform records require a total of 0 bytes
+[shiva_module.c:calculate_text_size:1875] LPM text segment size: 1059
+[shiva_module.c:calculate_text_size:1876] PLT Count: 8
+[shiva_module.c:calculate_data_size:1709] Increasing data segment len for section: .data len: 0
+[shiva_module.c:calculate_data_size:1736] bss len: 4384
+[shiva_module.c:calculate_data_size:1738] data_size: 4384
+[shiva_module.c:calculate_data_size:1788] Inserting entry into GOT cache and GOT list
+GOT entry for puts
+[shiva_module.c:calculate_data_size:1788] Inserting entry into GOT cache and GOT list
+GOT entry for fflush
+[shiva_module.c:calculate_data_size:1788] Inserting entry into GOT cache and GOT list
+GOT entry for _exit
+[shiva_module.c:calculate_data_size:1788] Inserting entry into GOT cache and GOT list
+GOT entry for elf_symbol_by_name
+[shiva_module.c:calculate_data_size:1788] Inserting entry into GOT cache and GOT list
+GOT entry for shiva_trace
+[shiva_module.c:calculate_data_size:1788] Inserting entry into GOT cache and GOT list
+GOT entry for shiva_trace_register_handler
+[shiva_module.c:calculate_data_size:1788] Inserting entry into GOT cache and GOT list
+GOT entry for shiva_trace_set_breakpoint
+[shiva_module.c:calculate_data_size:1788] Inserting entry into GOT cache and GOT list
+GOT entry for __stack_chk_fail
+[shiva_module.c:calculate_data_size:1805] Shiva module data segment size: 4448
+[shiva_module.c:create_text_image:2049] Module text segment: 0x7f54bea5a000
+[shiva_module.c:create_text_image:2073] Attempting to map section .text(offset: 0) into text segment at address 0x7f54bea5a000
+[shiva_module.c:elf_section_map:1572] Reading from offset 0x40 - 0x229
+[shiva_module.c:elf_section_map:1598] Reading qword from offset: 64
+[shiva_module.c:elf_section_map:1604] qword: 0xe5894855fa1e0ff3
+[shiva_module.c:elf_section_map:1598] Reading qword from offset: 72
+[shiva_module.c:elf_section_map:1604] qword: 0xf87d894810ec8348
+[shiva_module.c:elf_section_map:1598] Reading qword from offset: 80
+[shiva_module.c:elf_section_map:1604] qword: 0xe8c78948f8458b48
+[shiva_module.c:elf_section_map:1598] Reading qword from offset: 88
+[shiva_module.c:elf_section_map:1604] qword: 0xbf00000000
+[shiva_module.c:elf_section_map:1598] Reading qword from offset: 96
+[shiva_module.c:elf_section_map:1604] qword: 0xc99000000000e800
+[shiva_module.c:elf_section_map:1598] Reading qword from offset: 104
+[shiva_module.c:elf_section_map:1604] qword: 0x894855fa1e0ff3c3
+[shiva_module.c:elf_section_map:1598] Reading qword from offset: 112
+[shiva_module.c:elf_section_map:1604] qword: 0xfc7d8920ec8348e5
+[shiva_module.c:elf_section_map:1598] Reading qword from offset: 120
+[shiva_module.c:elf_section_map:1604] qword: 0xe8558948f0758948
+[shiva_module.c:elf_section_map:1598] Reading qword from offset: 128
+[shiva_module.c:elf_section_map:1604] qword: 0x4800000000058d48
+[shiva_module.c:elf_section_map:1598] Reading qword from offset: 136
+[shiva_module.c:elf_section_map:1604] qword: 0xbfffffffb1e8c789
+[shiva_module.c:elf_section_map:1598] Reading qword from offset: 144
+[shiva_module.c:elf_section_map:1604] qword: 0xe80000002a
+[shiva_module.c:elf_section_map:1598] Reading qword from offset: 152
+[shiva_module.c:elf_section_map:1604] qword: 0x894855fa1e0ff300
+[shiva_module.c:elf_section_map:1598] Reading qword from offset: 160
+[shiva_module.c:elf_section_map:1604] qword: 0x1000ec8148e5
+[shiva_module.c:elf_section_map:1598] Reading qword from offset: 168
+[shiva_module.c:elf_section_map:1604] qword: 0xec834800240c8348
+[shiva_module.c:elf_section_map:1598] Reading qword from offset: 176
+[shiva_module.c:elf_section_map:1604] qword: 0xffffefb8bd894850
+[shiva_module.c:elf_section_map:1598] Reading qword from offset: 184
+[shiva_module.c:elf_section_map:1604] qword: 0x2825048b4864
+[shiva_module.c:elf_section_map:1598] Reading qword from offset: 192
+[shiva_module.c:elf_section_map:1604] qword: 0x48c031f845894800
+[shiva_module.c:elf_section_map:1598] Reading qword from offset: 200
+[shiva_module.c:elf_section_map:1604] qword: 0x8948ffffefb8858b
+[shiva_module.c:elf_section_map:1598] Reading qword from offset: 208
+[shiva_module.c:elf_section_map:1604] qword: 0x58d48ffffefc085
+[shiva_module.c:elf_section_map:1598] Reading qword from offset: 216
+[shiva_module.c:elf_section_map:1604] qword: 0xe8c7894800000000
+[shiva_module.c:elf_section_map:1598] Reading qword from offset: 224
+[shiva_module.c:elf_section_map:1604] qword: 0xc0858b48ffffff5c
+[shiva_module.c:elf_section_map:1598] Reading qword from offset: 232
+[shiva_module.c:elf_section_map:1604] qword: 0x12f8888d48ffffef
+[shiva_module.c:elf_section_map:1598] Reading qword from offset: 240
+[shiva_module.c:elf_section_map:1604] qword: 0xffefd0858d480000
+[shiva_module.c:elf_section_map:1598] Reading qword from offset: 248
+[shiva_module.c:elf_section_map:1604] qword: 0x58d48c28948ff
+[shiva_module.c:elf_section_map:1598] Reading qword from offset: 256
+[shiva_module.c:elf_section_map:1604] qword: 0x8948c68948000000
+[shiva_module.c:elf_section_map:1598] Reading qword from offset: 264
+[shiva_module.c:elf_section_map:1604] qword: 0xf08300000000e8cf
+[shiva_module.c:elf_section_map:1598] Reading qword from offset: 272
+[shiva_module.c:elf_section_map:1604] qword: 0x58d481474c08401
+[shiva_module.c:elf_section_map:1598] Reading qword from offset: 280
+[shiva_module.c:elf_section_map:1604] qword: 0xe8c7894800000000
+[shiva_module.c:elf_section_map:1598] Reading qword from offset: 288
+[shiva_module.c:elf_section_map:1604] qword: 0xeae9ffffff1c
+[shiva_module.c:elf_section_map:1598] Reading qword from offset: 296
+[shiva_module.c:elf_section_map:1604] qword: 0xffffefd8958b4800
+[shiva_module.c:elf_section_map:1598] Reading qword from offset: 304
+[shiva_module.c:elf_section_map:1604] qword: 0x48ffffefc0858b48
+[shiva_module.c:elf_section_map:1598] Reading qword from offset: 312
+[shiva_module.c:elf_section_map:1604] qword: 0x14800002c08808b
+[shiva_module.c:elf_section_map:1598] Reading qword from offset: 320
+[shiva_module.c:elf_section_map:1604] qword: 0xffffefc8858948d0
+[shiva_module.c:elf_section_map:1598] Reading qword from offset: 328
+[shiva_module.c:elf_section_map:1604] qword: 0x48ffffefc0858b48
+[shiva_module.c:elf_section_map:1598] Reading qword from offset: 336
+[shiva_module.c:elf_section_map:1604] qword: 0xeff0958d4808ec83
+[shiva_module.c:elf_section_map:1598] Reading qword from offset: 344
+[shiva_module.c:elf_section_map:1604] qword: 0xb94152ffff
+[shiva_module.c:elf_section_map:1598] Reading qword from offset: 352
+[shiva_module.c:elf_section_map:1604] qword: 0xb900000000b84100
+[shiva_module.c:elf_section_map:1598] Reading qword from offset: 360
+[shiva_module.c:elf_section_map:1604] qword: 0x1ba00000000
+[shiva_module.c:elf_section_map:1598] Reading qword from offset: 368
+[shiva_module.c:elf_section_map:1604] qword: 0x894800000000be00
+[shiva_module.c:elf_section_map:1598] Reading qword from offset: 376
+[shiva_module.c:elf_section_map:1604] qword: 0x834800000000e8c7
+[shiva_module.c:elf_section_map:1598] Reading qword from offset: 384
+[shiva_module.c:elf_section_map:1604] qword: 0xffeff0958d4810c4
+[shiva_module.c:elf_section_map:1598] Reading qword from offset: 392
+[shiva_module.c:elf_section_map:1604] qword: 0xffffefc0858b48ff
+[shiva_module.c:elf_section_map:1598] Reading qword from offset: 400
+[shiva_module.c:elf_section_map:1604] qword: 0x4bad18948
+[shiva_module.c:elf_section_map:1598] Reading qword from offset: 408
+[shiva_module.c:elf_section_map:1604] qword: 0x48fffffeca358d48
+[shiva_module.c:elf_section_map:1598] Reading qword from offset: 416
+[shiva_module.c:elf_section_map:1604] qword: 0x8300000000e8c789
+[shiva_module.c:elf_section_map:1598] Reading qword from offset: 424
+[shiva_module.c:elf_section_map:1604] qword: 0x8d481174c08401f0
+[shiva_module.c:elf_section_map:1598] Reading qword from offset: 432
+[shiva_module.c:elf_section_map:1604] qword: 0xc789480000000005
+[shiva_module.c:elf_section_map:1598] Reading qword from offset: 440
+[shiva_module.c:elf_section_map:1604] qword: 0x4854ebfffffe83e8
+[shiva_module.c:elf_section_map:1598] Reading qword from offset: 448
+[shiva_module.c:elf_section_map:1604] qword: 0x8b48ffffeff08d8d
+[shiva_module.c:elf_section_map:1598] Reading qword from offset: 456
+[shiva_module.c:elf_section_map:1604] qword: 0x858b48ffffefc895
+[shiva_module.c:elf_section_map:1598] Reading qword from offset: 464
+[shiva_module.c:elf_section_map:1604] qword: 0xb9c88949ffffefc0
+[shiva_module.c:elf_section_map:1598] Reading qword from offset: 472
+[shiva_module.c:elf_section_map:1604] qword: 0x86358d4800000000
+[shiva_module.c:elf_section_map:1598] Reading qword from offset: 480
+[shiva_module.c:elf_section_map:1604] qword: 0xe8c78948fffffe
+[shiva_module.c:elf_section_map:1598] Reading qword from offset: 488
+[shiva_module.c:elf_section_map:1604] qword: 0xc08401f083000000
+[shiva_module.c:elf_section_map:1598] Reading qword from offset: 496
+[shiva_module.c:elf_section_map:1604] qword: 0x58d481174
+[shiva_module.c:elf_section_map:1598] Reading qword from offset: 504
+[shiva_module.c:elf_section_map:1604] qword: 0xfffe3fe8c7894800
+[shiva_module.c:elf_section_map:1598] Reading qword from offset: 512
+[shiva_module.c:elf_section_map:1604] qword: 0x58d4810ebff
+[shiva_module.c:elf_section_map:1598] Reading qword from offset: 520
+[shiva_module.c:elf_section_map:1604] qword: 0xfe2ee8c789480000
+[shiva_module.c:elf_section_map:1598] Reading qword from offset: 528
+[shiva_module.c:elf_section_map:1604] qword: 0x64f8458b4890ffff
+[shiva_module.c:elf_section_map:1598] Reading qword from offset: 536
+[shiva_module.c:elf_section_map:1604] qword: 0x2825042b48
+[shiva_module.c:elf_section_map:1598] Reading qword from offset: 544
+[shiva_module.c:elf_section_map:1604] qword: 0xc900000000e80574
+[shiva_module.c:elf_section_map:1577] 488 + sizeof(uint64_t) >= 489
+[shiva_module.c:elf_section_map:1583] writing out remainder: 1 bytes
+[shiva_module.c:elf_section_map:1585] Reading remaining byte from offset: 552
+[shiva_module.c:create_text_image:2095] Inserting section to segment mapping
+[shiva_module.c:create_text_image:2096] Address: 0x7f54bea5a000
+[shiva_module.c:create_text_image:2097] Offset: 0
+[shiva_module.c:create_text_image:2098] Size: 0x1e9
+[shiva_module.c:create_text_image:2073] Attempting to map section .rodata(offset: 489) into text segment at address 0x7f54bea5a1e9
+[shiva_module.c:elf_section_map:1572] Reading from offset 0x240 - 0x3b2
+[shiva_module.c:elf_section_map:1598] Reading qword from offset: 576
+[shiva_module.c:elf_section_map:1604] qword: 0x6d5f68637461705b
+[shiva_module.c:elf_section_map:1598] Reading qword from offset: 584
+[shiva_module.c:elf_section_map:1604] qword: 0x42205d656c75646f
+[shiva_module.c:elf_section_map:1598] Reading qword from offset: 592
+[shiva_module.c:elf_section_map:1604] qword: 0x4e494f504b414552
+[shiva_module.c:elf_section_map:1598] Reading qword from offset: 600
+[shiva_module.c:elf_section_map:1604] qword: 0x6976205449482054
+[shiva_module.c:elf_section_map:1598] Reading qword from offset: 608
+[shiva_module.c:elf_section_map:1604] qword: 0x7463616769732061
+[shiva_module.c:elf_section_map:1598] Reading qword from offset: 616
+[shiva_module.c:elf_section_map:1604] qword: 0x206f6e28206e6f69
+[shiva_module.c:elf_section_map:1598] Reading qword from offset: 624
+[shiva_module.c:elf_section_map:1604] qword: 0x6920656361727470
+[shiva_module.c:elf_section_map:1598] Reading qword from offset: 632
+[shiva_module.c:elf_section_map:1604] qword: 0x296465766c6f766e
+[shiva_module.c:elf_section_map:1598] Reading qword from offset: 640
+[shiva_module.c:elf_section_map:1604] qword: 0
+[shiva_module.c:elf_section_map:1598] Reading qword from offset: 648
+[shiva_module.c:elf_section_map:1604] qword: 0x6d5f68637461705b
+[shiva_module.c:elf_section_map:1598] Reading qword from offset: 656
+[shiva_module.c:elf_section_map:1604] qword: 0x73205d656c75646f
+[shiva_module.c:elf_section_map:1598] Reading qword from offset: 664
+[shiva_module.c:elf_section_map:1604] qword: 0x616d5f69746b6168
+[shiva_module.c:elf_section_map:1598] Reading qword from offset: 672
+[shiva_module.c:elf_section_map:1604] qword: 0x6e75722029286e69
+[shiva_module.c:elf_section_map:1598] Reading qword from offset: 680
+[shiva_module.c:elf_section_map:1604] qword: 0x72617400676e696e
+[shiva_module.c:elf_section_map:1598] Reading qword from offset: 688
+[shiva_module.c:elf_section_map:1604] qword: 0x636e75665f746567
+[shiva_module.c:elf_section_map:1598] Reading qword from offset: 696
+[shiva_module.c:elf_section_map:1604] qword: 0
+[shiva_module.c:elf_section_map:1598] Reading qword from offset: 704
+[shiva_module.c:elf_section_map:1604] qword: 0x6d5f68637461705b
+[shiva_module.c:elf_section_map:1598] Reading qword from offset: 712
+[shiva_module.c:elf_section_map:1604] qword: 0x63205d656c75646f
+[shiva_module.c:elf_section_map:1598] Reading qword from offset: 720
+[shiva_module.c:elf_section_map:1604] qword: 0x746f6e20646c756f
+[shiva_module.c:elf_section_map:1598] Reading qword from offset: 728
+[shiva_module.c:elf_section_map:1604] qword: 0x617420646e696620
+[shiva_module.c:elf_section_map:1598] Reading qword from offset: 736
+[shiva_module.c:elf_section_map:1604] qword: 0x6e75665f74656772
+[shiva_module.c:elf_section_map:1598] Reading qword from offset: 744
+[shiva_module.c:elf_section_map:1604] qword: 0x6c6f626d79732063
+[shiva_module.c:elf_section_map:1598] Reading qword from offset: 752
+[shiva_module.c:elf_section_map:1604] qword: 0
+[shiva_module.c:elf_section_map:1598] Reading qword from offset: 760
+[shiva_module.c:elf_section_map:1604] qword: 0x6d5f68637461705b
+[shiva_module.c:elf_section_map:1598] Reading qword from offset: 768
+[shiva_module.c:elf_section_map:1604] qword: 0x73205d656c75646f
+[shiva_module.c:elf_section_map:1598] Reading qword from offset: 776
+[shiva_module.c:elf_section_map:1604] qword: 0x6172745f61766968
+[shiva_module.c:elf_section_map:1598] Reading qword from offset: 784
+[shiva_module.c:elf_section_map:1604] qword: 0x73696765725f6563
+[shiva_module.c:elf_section_map:1598] Reading qword from offset: 792
+[shiva_module.c:elf_section_map:1604] qword: 0x646e61685f726574
+[shiva_module.c:elf_section_map:1598] Reading qword from offset: 800
+[shiva_module.c:elf_section_map:1604] qword: 0x6c6961662072656c
+[shiva_module.c:elf_section_map:1598] Reading qword from offset: 808
+[shiva_module.c:elf_section_map:1604] qword: 0x6465
+[shiva_module.c:elf_section_map:1598] Reading qword from offset: 816
+[shiva_module.c:elf_section_map:1604] qword: 0x6d5f68637461705b
+[shiva_module.c:elf_section_map:1598] Reading qword from offset: 824
+[shiva_module.c:elf_section_map:1604] qword: 0x73205d656c75646f
+[shiva_module.c:elf_section_map:1598] Reading qword from offset: 832
+[shiva_module.c:elf_section_map:1604] qword: 0x6172745f61766968
+[shiva_module.c:elf_section_map:1598] Reading qword from offset: 840
+[shiva_module.c:elf_section_map:1604] qword: 0x625f7465735f6563
+[shiva_module.c:elf_section_map:1598] Reading qword from offset: 848
+[shiva_module.c:elf_section_map:1604] qword: 0x6e696f706b616572
+[shiva_module.c:elf_section_map:1598] Reading qword from offset: 856
+[shiva_module.c:elf_section_map:1604] qword: 0x64656c6961662074
+[shiva_module.c:elf_section_map:1598] Reading qword from offset: 864
+[shiva_module.c:elf_section_map:1604] qword: 0
+[shiva_module.c:elf_section_map:1598] Reading qword from offset: 872
+[shiva_module.c:elf_section_map:1604] qword: 0x6d5f68637461705b
+[shiva_module.c:elf_section_map:1598] Reading qword from offset: 880
+[shiva_module.c:elf_section_map:1604] qword: 0x62205d656c75646f
+[shiva_module.c:elf_section_map:1598] Reading qword from offset: 888
+[shiva_module.c:elf_section_map:1604] qword: 0x6e696f706b616572
+[shiva_module.c:elf_section_map:1598] Reading qword from offset: 896
+[shiva_module.c:elf_section_map:1604] qword: 0x6c6174736e692074
+[shiva_module.c:elf_section_map:1598] Reading qword from offset: 904
+[shiva_module.c:elf_section_map:1604] qword: 0x746572202c64656c
+[shiva_module.c:elf_section_map:1598] Reading qword from offset: 912
+[shiva_module.c:elf_section_map:1604] qword: 0x7420676e696e7275
+[shiva_module.c:elf_section_map:1598] Reading qword from offset: 920
+[shiva_module.c:elf_section_map:1604] qword: 0x206176696853206f
+[shiva_module.c:elf_section_map:1598] Reading qword from offset: 928
+[shiva_module.c:elf_section_map:1604] qword: 0x6c61657220726f66
+[shiva_module.c:elf_section_map:1598] Reading qword from offset: 936
+[shiva_module.c:elf_section_map:1604] qword: 0x6566736e61727420
+[shiva_module.c:elf_section_map:1577] 368 + sizeof(uint64_t) >= 370
+[shiva_module.c:elf_section_map:1583] writing out remainder: 2 bytes
+[shiva_module.c:elf_section_map:1585] Reading remaining byte from offset: 944
+[shiva_module.c:elf_section_map:1585] Reading remaining byte from offset: 945
+[shiva_module.c:create_text_image:2095] Inserting section to segment mapping
+[shiva_module.c:create_text_image:2096] Address: 0x7f54bea5a1e9
+[shiva_module.c:create_text_image:2097] Offset: 0x1e9
+[shiva_module.c:create_text_image:2098] Size: 0x172
+[shiva_module.c:create_text_image:2070] Skipping note sections
+[shiva_module.c:create_text_image:2066] Skipping section .eh_frame (Unused)
+[shiva_module.c:create_text_image:2103] count: 859 off: 859
+[shiva_module.c:create_text_image:2166] Copying PLT stub to 0x7f54bea5a360, offset 0x360
+[shiva_module.c:create_text_image:2166] Copying PLT stub to 0x7f54bea5a366, offset 0x366
+[shiva_module.c:create_text_image:2166] Copying PLT stub to 0x7f54bea5a36c, offset 0x36c
+[shiva_module.c:create_text_image:2166] Copying PLT stub to 0x7f54bea5a372, offset 0x372
+[shiva_module.c:create_text_image:2166] Copying PLT stub to 0x7f54bea5a378, offset 0x378
+[shiva_module.c:create_text_image:2166] Copying PLT stub to 0x7f54bea5a37e, offset 0x37e
+[shiva_module.c:create_text_image:2166] Copying PLT stub to 0x7f54bea5a384, offset 0x384
+[shiva_module.c:create_text_image:2166] Copying PLT stub to 0x7f54bea5a38a, offset 0x38a
+[shiva_module.c:create_data_image:1918] ELF data segment len: 8192
+[shiva_module.c:create_data_image:1941] Attempting to map section .bss(offset: 0) into data segment at address 0x7f54be919000
+[shiva_module.c:create_data_image:1967] Inserting section to segment mapping
+[shiva_module.c:create_data_image:1968] Address: 0x7f54be91a160
+[shiva_module.c:create_data_image:1969] Offset: 0x1160
+[shiva_module.c:create_data_image:1970] Size: 0x1120
+[shiva_module.c:create_data_image:1973] COUNT: 4384
+[shiva_module.c:relocate_module:1491] Relocation in .text (offset: 0x18) for symbol puts
+[shiva_module.c:relocate_module:1519] Relocation symbol name: puts
+[shiva_module.c:apply_relocation:940] Successfully retrieved section mapping for .text
+[shiva_module.c:apply_relocation:941] linker->text_vaddr: 0x7f54bea5a000
+[shiva_module.c:apply_relocation:942] linker->data_vaddr: 0x7f54be919000
+[shiva_module.c:apply_relocation:943] smap.offset: 0
+[shiva_module.c:apply_relocation:1363] Applying PLT32 relocation for puts
+[shiva_module.c:apply_relocation:1367] rel_addr: 0x7f54bea5a018 rel_val: 0x344
+[shiva_module.c:relocate_module:1491] Relocation in .text (offset: 0x22) for symbol fflush
+[shiva_module.c:relocate_module:1519] Relocation symbol name: fflush
+[shiva_module.c:apply_relocation:940] Successfully retrieved section mapping for .text
+[shiva_module.c:apply_relocation:941] linker->text_vaddr: 0x7f54bea5a000
+[shiva_module.c:apply_relocation:942] linker->data_vaddr: 0x7f54be919000
+[shiva_module.c:apply_relocation:943] smap.offset: 0
+[shiva_module.c:apply_relocation:1363] Applying PLT32 relocation for fflush
+[shiva_module.c:apply_relocation:1367] rel_addr: 0x7f54bea5a022 rel_val: 0x340
+[shiva_module.c:relocate_module:1491] Relocation in .text (offset: 0x43) for symbol .rodata
+[shiva_module.c:relocate_module:1519] Relocation symbol name: .rodata
+[shiva_module.c:apply_relocation:940] Successfully retrieved section mapping for .text
+[shiva_module.c:apply_relocation:941] linker->text_vaddr: 0x7f54bea5a000
+[shiva_module.c:apply_relocation:942] linker->data_vaddr: 0x7f54be919000
+[shiva_module.c:apply_relocation:943] smap.offset: 0
+[shiva_module.c:apply_relocation:1373] Applying PC32 relocation for .rodata
+[shiva_module.c:apply_relocation:1387] Section: .rodata
+[shiva_module.c:apply_relocation:1388] rel_val = 0x7f54bea5a1e9 + 0xfffffffffffffffc - 0x7f54bea5a043
+[shiva_module.c:apply_relocation:1389] rel_addr: 0x7f54bea5a043 rel_val: 0x1a2
+[shiva_module.c:relocate_module:1491] Relocation in .text (offset: 0x55) for symbol _exit
+[shiva_module.c:relocate_module:1519] Relocation symbol name: _exit
+[shiva_module.c:apply_relocation:940] Successfully retrieved section mapping for .text
+[shiva_module.c:apply_relocation:941] linker->text_vaddr: 0x7f54bea5a000
+[shiva_module.c:apply_relocation:942] linker->data_vaddr: 0x7f54be919000
+[shiva_module.c:apply_relocation:943] smap.offset: 0
+[shiva_module.c:apply_relocation:1363] Applying PLT32 relocation for _exit
+[shiva_module.c:apply_relocation:1367] rel_addr: 0x7f54bea5a055 rel_val: 0x313
+[shiva_module.c:relocate_module:1491] Relocation in .text (offset: 0x98) for symbol .rodata
+[shiva_module.c:relocate_module:1519] Relocation symbol name: .rodata
+[shiva_module.c:apply_relocation:940] Successfully retrieved section mapping for .text
+[shiva_module.c:apply_relocation:941] linker->text_vaddr: 0x7f54bea5a000
+[shiva_module.c:apply_relocation:942] linker->data_vaddr: 0x7f54be919000
+[shiva_module.c:apply_relocation:943] smap.offset: 0
+[shiva_module.c:apply_relocation:1373] Applying PC32 relocation for .rodata
+[shiva_module.c:apply_relocation:1387] Section: .rodata
+[shiva_module.c:apply_relocation:1388] rel_val = 0x7f54bea5a1e9 + 0x44 - 0x7f54bea5a098
+[shiva_module.c:apply_relocation:1389] rel_addr: 0x7f54bea5a098 rel_val: 0x195
+[shiva_module.c:relocate_module:1491] Relocation in .text (offset: 0xbf) for symbol .rodata
+[shiva_module.c:relocate_module:1519] Relocation symbol name: .rodata
+[shiva_module.c:apply_relocation:940] Successfully retrieved section mapping for .text
+[shiva_module.c:apply_relocation:941] linker->text_vaddr: 0x7f54bea5a000
+[shiva_module.c:apply_relocation:942] linker->data_vaddr: 0x7f54be919000
+[shiva_module.c:apply_relocation:943] smap.offset: 0
+[shiva_module.c:apply_relocation:1373] Applying PC32 relocation for .rodata
+[shiva_module.c:apply_relocation:1387] Section: .rodata
+[shiva_module.c:apply_relocation:1388] rel_val = 0x7f54bea5a1e9 + 0x69 - 0x7f54bea5a0bf
+[shiva_module.c:apply_relocation:1389] rel_addr: 0x7f54bea5a0bf rel_val: 0x193
+[shiva_module.c:relocate_module:1491] Relocation in .text (offset: 0xca) for symbol elf_symbol_by_name
+[shiva_module.c:relocate_module:1519] Relocation symbol name: elf_symbol_by_name
+[shiva_module.c:apply_relocation:940] Successfully retrieved section mapping for .text
+[shiva_module.c:apply_relocation:941] linker->text_vaddr: 0x7f54bea5a000
+[shiva_module.c:apply_relocation:942] linker->data_vaddr: 0x7f54be919000
+[shiva_module.c:apply_relocation:943] smap.offset: 0
+[shiva_module.c:apply_relocation:1363] Applying PLT32 relocation for elf_symbol_by_name
+[shiva_module.c:apply_relocation:1367] rel_addr: 0x7f54bea5a0ca rel_val: 0x2a4
+[shiva_module.c:relocate_module:1491] Relocation in .text (offset: 0xd8) for symbol .rodata
+[shiva_module.c:relocate_module:1519] Relocation symbol name: .rodata
+[shiva_module.c:apply_relocation:940] Successfully retrieved section mapping for .text
+[shiva_module.c:apply_relocation:941] linker->text_vaddr: 0x7f54bea5a000
+[shiva_module.c:apply_relocation:942] linker->data_vaddr: 0x7f54be919000
+[shiva_module.c:apply_relocation:943] smap.offset: 0
+[shiva_module.c:apply_relocation:1373] Applying PC32 relocation for .rodata
+[shiva_module.c:apply_relocation:1387] Section: .rodata
+[shiva_module.c:apply_relocation:1388] rel_val = 0x7f54bea5a1e9 + 0x7c - 0x7f54bea5a0d8
+[shiva_module.c:apply_relocation:1389] rel_addr: 0x7f54bea5a0d8 rel_val: 0x18d
+[shiva_module.c:relocate_module:1491] Relocation in .text (offset: 0x13a) for symbol shiva_trace
+[shiva_module.c:relocate_module:1519] Relocation symbol name: shiva_trace
+[shiva_module.c:apply_relocation:940] Successfully retrieved section mapping for .text
+[shiva_module.c:apply_relocation:941] linker->text_vaddr: 0x7f54bea5a000
+[shiva_module.c:apply_relocation:942] linker->data_vaddr: 0x7f54be919000
+[shiva_module.c:apply_relocation:943] smap.offset: 0
+[shiva_module.c:apply_relocation:1363] Applying PLT32 relocation for shiva_trace
+[shiva_module.c:apply_relocation:1367] rel_addr: 0x7f54bea5a13a rel_val: 0x23a
+[shiva_module.c:relocate_module:1491] Relocation in .text (offset: 0x163) for symbol shiva_trace_register_handler
+[shiva_module.c:relocate_module:1519] Relocation symbol name: shiva_trace_register_handler
+[shiva_module.c:apply_relocation:940] Successfully retrieved section mapping for .text
+[shiva_module.c:apply_relocation:941] linker->text_vaddr: 0x7f54bea5a000
+[shiva_module.c:apply_relocation:942] linker->data_vaddr: 0x7f54be919000
+[shiva_module.c:apply_relocation:943] smap.offset: 0
+[shiva_module.c:apply_relocation:1363] Applying PLT32 relocation for shiva_trace_register_handler
+[shiva_module.c:apply_relocation:1367] rel_addr: 0x7f54bea5a163 rel_val: 0x217
+[shiva_module.c:relocate_module:1491] Relocation in .text (offset: 0x171) for symbol .rodata
+[shiva_module.c:relocate_module:1519] Relocation symbol name: .rodata
+[shiva_module.c:apply_relocation:940] Successfully retrieved section mapping for .text
+[shiva_module.c:apply_relocation:941] linker->text_vaddr: 0x7f54bea5a000
+[shiva_module.c:apply_relocation:942] linker->data_vaddr: 0x7f54be919000
+[shiva_module.c:apply_relocation:943] smap.offset: 0
+[shiva_module.c:apply_relocation:1373] Applying PC32 relocation for .rodata
+[shiva_module.c:apply_relocation:1387] Section: .rodata
+[shiva_module.c:apply_relocation:1388] rel_val = 0x7f54bea5a1e9 + 0xb4 - 0x7f54bea5a171
+[shiva_module.c:apply_relocation:1389] rel_addr: 0x7f54bea5a171 rel_val: 0x12c
+[shiva_module.c:relocate_module:1491] Relocation in .text (offset: 0x1a7) for symbol shiva_trace_set_breakpoint
+[shiva_module.c:relocate_module:1519] Relocation symbol name: shiva_trace_set_breakpoint
+[shiva_module.c:apply_relocation:940] Successfully retrieved section mapping for .text
+[shiva_module.c:apply_relocation:941] linker->text_vaddr: 0x7f54bea5a000
+[shiva_module.c:apply_relocation:942] linker->data_vaddr: 0x7f54be919000
+[shiva_module.c:apply_relocation:943] smap.offset: 0
+[shiva_module.c:apply_relocation:1363] Applying PLT32 relocation for shiva_trace_set_breakpoint
+[shiva_module.c:apply_relocation:1367] rel_addr: 0x7f54bea5a1a7 rel_val: 0x1d9
+[shiva_module.c:relocate_module:1491] Relocation in .text (offset: 0x1b5) for symbol .rodata
+[shiva_module.c:relocate_module:1519] Relocation symbol name: .rodata
+[shiva_module.c:apply_relocation:940] Successfully retrieved section mapping for .text
+[shiva_module.c:apply_relocation:941] linker->text_vaddr: 0x7f54bea5a000
+[shiva_module.c:apply_relocation:942] linker->data_vaddr: 0x7f54be919000
+[shiva_module.c:apply_relocation:943] smap.offset: 0
+[shiva_module.c:apply_relocation:1373] Applying PC32 relocation for .rodata
+[shiva_module.c:apply_relocation:1387] Section: .rodata
+[shiva_module.c:apply_relocation:1388] rel_val = 0x7f54bea5a1e9 + 0xec - 0x7f54bea5a1b5
+[shiva_module.c:apply_relocation:1389] rel_addr: 0x7f54bea5a1b5 rel_val: 0x120
+[shiva_module.c:relocate_module:1491] Relocation in .text (offset: 0x1c6) for symbol .rodata
+[shiva_module.c:relocate_module:1519] Relocation symbol name: .rodata
+[shiva_module.c:apply_relocation:940] Successfully retrieved section mapping for .text
+[shiva_module.c:apply_relocation:941] linker->text_vaddr: 0x7f54bea5a000
+[shiva_module.c:apply_relocation:942] linker->data_vaddr: 0x7f54be919000
+[shiva_module.c:apply_relocation:943] smap.offset: 0
+[shiva_module.c:apply_relocation:1373] Applying PC32 relocation for .rodata
+[shiva_module.c:apply_relocation:1387] Section: .rodata
+[shiva_module.c:apply_relocation:1388] rel_val = 0x7f54bea5a1e9 + 0x124 - 0x7f54bea5a1c6
+[shiva_module.c:apply_relocation:1389] rel_addr: 0x7f54bea5a1c6 rel_val: 0x147
+[shiva_module.c:relocate_module:1491] Relocation in .text (offset: 0x1e3) for symbol __stack_chk_fail
+[shiva_module.c:relocate_module:1519] Relocation symbol name: __stack_chk_fail
+[shiva_module.c:apply_relocation:940] Successfully retrieved section mapping for .text
+[shiva_module.c:apply_relocation:941] linker->text_vaddr: 0x7f54bea5a000
+[shiva_module.c:apply_relocation:942] linker->data_vaddr: 0x7f54be919000
+[shiva_module.c:apply_relocation:943] smap.offset: 0
+[shiva_module.c:apply_relocation:1363] Applying PLT32 relocation for __stack_chk_fail
+[shiva_module.c:apply_relocation:1367] rel_addr: 0x7f54bea5a1e3 rel_val: 0x1a3
+[shiva_module.c:patch_plt_stubs:726] SYMNAME: puts PLTADDR: 0x7f54bea5a360 GOTADDR: 0x7f54be919000 GOTOFF: 0xffffffffffebec9a
+[shiva_module.c:patch_plt_stubs:727] Fixedup PLT stub with GOT offset: 0xffffffffffebec9a
+[shiva_module.c:patch_plt_stubs:726] SYMNAME: fflush PLTADDR: 0x7f54bea5a366 GOTADDR: 0x7f54be919008 GOTOFF: 0xffffffffffebec9c
+[shiva_module.c:patch_plt_stubs:727] Fixedup PLT stub with GOT offset: 0xffffffffffebec9c
+[shiva_module.c:patch_plt_stubs:726] SYMNAME: _exit PLTADDR: 0x7f54bea5a36c GOTADDR: 0x7f54be919010 GOTOFF: 0xffffffffffebec9e
+[shiva_module.c:patch_plt_stubs:727] Fixedup PLT stub with GOT offset: 0xffffffffffebec9e
+[shiva_module.c:patch_plt_stubs:726] SYMNAME: elf_symbol_by_name PLTADDR: 0x7f54bea5a372 GOTADDR: 0x7f54be919018 GOTOFF: 0xffffffffffebeca0
+[shiva_module.c:patch_plt_stubs:727] Fixedup PLT stub with GOT offset: 0xffffffffffebeca0
+[shiva_module.c:patch_plt_stubs:726] SYMNAME: shiva_trace PLTADDR: 0x7f54bea5a378 GOTADDR: 0x7f54be919020 GOTOFF: 0xffffffffffebeca2
+[shiva_module.c:patch_plt_stubs:727] Fixedup PLT stub with GOT offset: 0xffffffffffebeca2
+[shiva_module.c:patch_plt_stubs:726] SYMNAME: shiva_trace_register_handler PLTADDR: 0x7f54bea5a37e GOTADDR: 0x7f54be919028 GOTOFF: 0xffffffffffebeca4
+[shiva_module.c:patch_plt_stubs:727] Fixedup PLT stub with GOT offset: 0xffffffffffebeca4
+[shiva_module.c:patch_plt_stubs:726] SYMNAME: shiva_trace_set_breakpoint PLTADDR: 0x7f54bea5a384 GOTADDR: 0x7f54be919030 GOTOFF: 0xffffffffffebeca6
+[shiva_module.c:patch_plt_stubs:727] Fixedup PLT stub with GOT offset: 0xffffffffffebeca6
+[shiva_module.c:patch_plt_stubs:726] SYMNAME: __stack_chk_fail PLTADDR: 0x7f54bea5a38a GOTADDR: 0x7f54be919038 GOTOFF: 0xffffffffffebeca8
+[shiva_module.c:patch_plt_stubs:727] Fixedup PLT stub with GOT offset: 0xffffffffffebeca8
+[shiva_module.c:resolve_pltgot_entries:504] Processing GOT[puts](0x7f54be919000)
+[shiva_module.c:resolve_pltgot_entries:685] Found symbol 'puts':0x42fdd0 within the Shiva API
+[shiva_module.c:resolve_pltgot_entries:504] Processing GOT[fflush](0x7f54be919008)
+[shiva_module.c:resolve_pltgot_entries:685] Found symbol 'fflush':0x42f160 within the Shiva API
+[shiva_module.c:resolve_pltgot_entries:504] Processing GOT[_exit](0x7f54be919010)
+[shiva_module.c:resolve_pltgot_entries:685] Found symbol '_exit':0x4370e0 within the Shiva API
+[shiva_module.c:resolve_pltgot_entries:504] Processing GOT[elf_symbol_by_name](0x7f54be919018)
+[shiva_module.c:resolve_pltgot_entries:685] Found symbol 'elf_symbol_by_name':0x419fc9 within the Shiva API
+[shiva_module.c:resolve_pltgot_entries:504] Processing GOT[shiva_trace](0x7f54be919020)
+[shiva_module.c:resolve_pltgot_entries:685] Found symbol 'shiva_trace':0x411277 within the Shiva API
+[shiva_module.c:resolve_pltgot_entries:504] Processing GOT[shiva_trace_register_handler](0x7f54be919028)
+[shiva_module.c:resolve_pltgot_entries:685] Found symbol 'shiva_trace_register_handler':0x40f7eb within the Shiva API
+[shiva_module.c:resolve_pltgot_entries:504] Processing GOT[shiva_trace_set_breakpoint](0x7f54be919030)
+[shiva_module.c:resolve_pltgot_entries:685] Found symbol 'shiva_trace_set_breakpoint':0x40f942 within the Shiva API
+[shiva_module.c:resolve_pltgot_entries:504] Processing GOT[__stack_chk_fail](0x7f54be919038)
+[shiva_module.c:resolve_pltgot_entries:685] Found symbol '__stack_chk_fail':0x42b9c0 within the Shiva API
+[shiva_module.c:module_entrypoint:449] Module text: 0x7f54bea5a000
+[shiva_module.c:shiva_module_loader:2855] ModuleEntry point address: 0x7f54bea5a059
+[patch_module] shakti_main() running
+[shiva_trace_thread.c:shiva_trace_thread_status:22] Opening: /proc/self/status
+[shiva_trace_thread.c:shiva_trace_thread_status:35] Thread name: 	test_target_pat
+
+[shiva_trace_thread.c:shiva_trace_thread_status:57] Thread ppid: 228
+[shiva_trace_thread.c:shiva_trace_thread_status:46] Thread tracer pid: 228
+[shiva_trace_thread.c:shiva_trace_thread_status:54] Thread uid: 0
+[shiva_trace_thread.c:shiva_trace_thread_status:43] Thread gid: 0
+[shiva_trace_thread.c:shiva_trace_thread_status:63] Returning true
+[shiva_trace_thread.c:shiva_trace_thread_insert:109] Inserting new thread
+[shiva_trace_thread.c:shiva_trace_thread_insert:113] Returning true
+[shiva_trace.c:shiva_trace_register_handler:185] Registering handler 0x7f54bea5a029
+[shiva_trace.c:shiva_trace_set_breakpoint:221] found handler: 0x7f54bea5a029
+[shiva_maps.c:shiva_maps_prot_by_addr:215] mmap_entry.base: 0x400000 mmap_entry.len: 1000
+[shiva_maps.c:shiva_maps_prot_by_addr:215] mmap_entry.base: 0x401000 mmap_entry.len: 37000
+[shiva_maps.c:shiva_maps_prot_by_addr:215] mmap_entry.base: 0x438000 mmap_entry.len: e000
+[shiva_maps.c:shiva_maps_prot_by_addr:215] mmap_entry.base: 0x446000 mmap_entry.len: 11000
+[shiva_maps.c:shiva_maps_prot_by_addr:215] mmap_entry.base: 0x457000 mmap_entry.len: 2000
+[shiva_maps.c:shiva_maps_prot_by_addr:215] mmap_entry.base: 0x5615099d7000 mmap_entry.len: 1000
+[shiva_maps.c:shiva_maps_prot_by_addr:215] mmap_entry.base: 0x5615099d8000 mmap_entry.len: 1000
+[shiva_trace.c:shiva_trace_write:126] copying 4 bytes from 0x7fff91034348 to 0x5615099d8189
+[shiva_trace.c:shiva_trace_set_breakpoint:276] Inserted SIGILL breakpoint: 0x5615099d8189
+[patch_module] breakpoint installed, returning to Shiva for real transfer
+[shiva_module.c:shiva_module_loader:2857] Successfully executed module
+[shiva.c:shiva_interp_mode:204] Target base after module: 0x5615099d7000
+[shiva_ulexec.c:shiva_ulexec_load_elf_binary:315] PROT_READ
+[shiva_ulexec.c:shiva_ulexec_load_elf_binary:324] base map address: 0x1000000
+[shiva_ulexec.c:shiva_ulexec_total_segment_len:256] Total mapping size: 234200
+[shiva_ulexec.c:shiva_ulexec_load_elf_binary:346] total_segment_len of RTLD: 237568
+[shiva_ulexec.c:shiva_ulexec_load_elf_binary:356] Mapped interpreter base: 0x1000000
+[shiva_ulexec.c:shiva_ulexec_load_elf_binary:315] PROT_READ
+[shiva_ulexec.c:shiva_ulexec_load_elf_binary:319] PROT_EXEC
+[shiva_ulexec.c:shiva_ulexec_load_elf_binary:324] base map address: 0x1000000
+[shiva_ulexec.c:shiva_ulexec_load_elf_binary:315] PROT_READ
+[shiva_ulexec.c:shiva_ulexec_load_elf_binary:324] base map address: 0x1000000
+[shiva_ulexec.c:shiva_ulexec_load_elf_binary:315] PROT_READ
+[shiva_ulexec.c:shiva_ulexec_load_elf_binary:317] PROT_WRITE
+[shiva_ulexec.c:shiva_ulexec_load_elf_binary:324] base map address: 0x1000000
+[shiva_ulexec.c:shiva_ulexec_load_elf_binary:433] base_vaddr: 0x1000000
+[shiva_ulexec.c:shiva_ulexec_load_elf_binary:434] Setting entry point for ldso: 0x101f540
+[shiva_ulexec.c:shiva_ulexec_allocstack:11] STACK: 0x7f54be4f6000 - 0x7f54be8de000
+[shiva.c:shiva_interp_mode:253] o_stack_addr: 0x7fff91038710 o_stack_end: 0x7fff91039000
+[shiva.c:shiva_interp_mode:258] copy_len: 2288
+[shiva.c:shiva_interp_mode:259] Copying to 0x7f54be8dd710 from 0x7fff91038710
+[shiva.c:shiva_interp_mode:267] Target entry point: 0
+[shiva.c:shiva_interp_mode:268] LDSO entry point: 0x101f540
+--- SIGILL {si_signo=SIGILL, si_code=ILL_ILLOPN, si_addr=0x5615099d8189} ---
+[patch_module] BREAKPOINT HIT via sigaction (no ptrace involved)
++++ exited with 42 +++
